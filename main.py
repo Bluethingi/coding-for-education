@@ -21,9 +21,13 @@ class MatrixHandler():
                     col = int(elements.attrib['col'])
                     self.matrix[row-1, col-1] = float(elements.text)
 
-    def multiply(self):
+    def multiply(self, matrix):
+        mult_matrix = np.multiply(self.matrix, matrix)
+        return mult_matrix
 
-
+    def Transpose(self):
+        trans_matrix = np.transpose(self.matrix)
+        return trans_matrix
 
 if (__name__ == "__main__"):
     Handler = MatrixHandler()
