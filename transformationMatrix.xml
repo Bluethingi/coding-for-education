@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<matrix type="double">
+    <row num="1">
+        <element col="1">32</element>
+        <element col="2">45</element>
+        <element col="3">0.10</element>
+        <element col="4">0.91</element>
+    </row>
+    <row num="2">
+        <element col="1">0.1</element>
+        <element col="2">0.5</element>
+        <element col="3">0.75</element>
+        <element col="4">0.2</element>
+    </row>
+    <row num="3">
+        <element col="1">0.1</element>
+        <element col="2">0.5</element>
+        <element col="3">0.75</element>
+        <element col="4">0.2</element>
+    </row>
+    <row num="4">
+        <element col="1">0.1</element>
+        <element col="2">0.5</element>
+        <element col="3">0.75</element>
+        <element col="4">0.2</element>
+    </row>
+</matrix>
+
